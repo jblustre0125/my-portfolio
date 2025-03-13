@@ -9,9 +9,9 @@ export default function AboutSection() {
     return (
         <section
             id="about"
-            className="w-full bg-gray-900 text-white px-8 md:px-20 lg:px-32 py-20"
+            className="w-full bg-gray-900 text-white px-8 md:px-20 lg:px-32 py-23"
         >
-            <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20">
+            <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-20 w-full">
 
                 {/* About Image */}
                 <div className="relative w-48 md:w-72 aspect-square rounded-full overflow-hidden border-4 border-blue-400 shadow-2xl">
