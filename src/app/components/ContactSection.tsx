@@ -9,7 +9,7 @@ export default function ContactPage() {
         message: ""
     });
 
-    const handleChange = (e) => {
+    const handleChange = (e: { target: { name: string; value: string; }; }) => {
         const { name, value } = e.target;
         setFormData((prevData) => ({
             ...prevData,
@@ -17,7 +17,7 @@ export default function ContactPage() {
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
         console.log(formData);
     };
