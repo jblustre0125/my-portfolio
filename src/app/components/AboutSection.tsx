@@ -29,7 +29,7 @@ export default function AboutSection() {
                         About <span className="text-blue-400">Me</span>
                     </h1>
 
-                    <p className="text-lg leading-relaxed text-gray-300">
+                    <p className="text-lg leading-relaxed text-gray-300 text-center">
                         I am <span className="font-semibold text-white">JB Lustre</span>, a passionate 
                         <span className="font-semibold text-blue-400"> Front-end Web Developer </span>
                         dedicated to building engaging and interactive web experiences.

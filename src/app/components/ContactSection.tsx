@@ -23,7 +23,7 @@ export default function ContactPage() {
     };
 
     return (
-        <section id="contact" className="min-h-screen bg-gray-900 text-white w-full px-4 py-20 flex items-center">
+        <section id="contact" className="min-h-screen bg-gray-900 text-white w-full px-8 py-20 flex items-center">
             <div className="max-w-4xl w-full mx-auto">
                 <h1 className="text-4xl font-bold text-center text-blue-400 mb-12">
                     Contact <span className="text-white">Me</span>
