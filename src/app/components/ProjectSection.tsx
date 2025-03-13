@@ -28,7 +28,7 @@ const projects = [
 
 export default function ProjectPage() {
     return (
-        <section id="projects" className="min-h-screen bg-gray-900 text-white px-8 md:px-20 py-20">
+        <section id="projects" className="min-h-screen bg-gray-900 text-white px-8 md:px-20 py-20 w-full">
             <h1 className="text-5xl font-extrabold text-center text-blue-400 mb-12">
                 My <span className="text-white">Projects</span>
             </h1>
